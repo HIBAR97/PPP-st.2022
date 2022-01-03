@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     final String TAG = "GILBOMI";
     String mCurrentPhotoPath;
-    final int REQUEST_TAKE_PHOTO = 1;
+    final int REQUEST_TAKE_PHOTO = 1234;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
