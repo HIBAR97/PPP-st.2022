@@ -32,7 +32,17 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent (getApplicationContext(), takePic.class);
                 startActivity(intent);
             }
-    });
+        });
+
+        btnSet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //Setting으로 이동
+                Intent intent = new Intent(getApplicationContext(), Setting.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
