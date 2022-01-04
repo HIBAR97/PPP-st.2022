@@ -32,6 +32,9 @@ public class takePic extends AppCompatActivity {
         setContentView(R.layout.takepic);
 
         Button btnPic;
+        Button btnBack;
+
+        btnBack = (Button)findViewById(R.id.btnBack);
         btnPic = (Button) findViewById(R.id.btnPic);
 
         //권한 확인
@@ -45,7 +48,7 @@ public class takePic extends AppCompatActivity {
         }
 
 
-        //버튼 리스터
+        //촬영 버튼 리스너
         btnPic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,6 +58,16 @@ public class takePic extends AppCompatActivity {
                         startActivityForResult(cameraIntent, TAKE_PICTURE);
                         break;
                 }
+            }
+        });
+
+        //뒤로가기 버튼 리스너
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Main으로 이동
+                Intent intent = new Intent (getApplicationContext(), MainActivity.class);
+                startActivity(intent);
             }
         });
     }
