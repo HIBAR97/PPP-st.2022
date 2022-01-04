@@ -31,8 +31,7 @@
             android:id="@+id/btnPic"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="뒤로 가기"
-            ></Button>
+            android:text="뒤로 가기"></Button>
 
     </LinearLayout>
 
