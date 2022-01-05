@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="설정">
+        <SwitchPreference
+            android:title="알림">
+        </SwitchPreference>
+
+    <PreferenceScreen
+        android:title="키워트 알림"
+        android:summary="사용안함">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="키워드 알림"
+            android:summary="간략한 내용">
+        </SwitchPreference>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="시각장애 모드"
+        android:summary="제스쳐 모드를 활성화">
+    </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

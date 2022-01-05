@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //Setting으로 이동
-                Intent intent = new Intent(getApplicationContext(), Setting.class);
+                Intent intent = new Intent(getApplicationContext(), SettingFragment.class);
                 startActivity(intent);
             }
         });
