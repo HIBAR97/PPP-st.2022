@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //takePic으로 이동
+                //Move to "takePic" page
                 Intent intent = new Intent (getApplicationContext(), takePic.class);
                 startActivity(intent);
             }
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Setting으로 이동
+                //Move to SettingFragment
                 Intent intent = new Intent(getApplicationContext(), SettingFragment.class);
                 startActivity(intent);
             }
