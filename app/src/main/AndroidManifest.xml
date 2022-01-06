@@ -17,6 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalProject">
 
+        //Define MainActivity
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -27,18 +28,21 @@
             </intent-filter>
         </activity>
 
+        //Define takePic
         <activity
             android:name=".takePic"
             android:exported="true">
 
         </activity>
 
+        //Define Setting
         <activity
             android:name=".Setting"
             android:exported="true">
 
         </activity>
 
+        //Define SettingFragment
         <activity
             android:name=".SettingFragment"
             android:exported="true">

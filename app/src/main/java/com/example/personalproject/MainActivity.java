@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnSet = (Button)findViewById(R.id.btnSet);
 
 
-
+        //Pic functuion Listener
         btnPicMove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Setting function Listener
         btnSet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

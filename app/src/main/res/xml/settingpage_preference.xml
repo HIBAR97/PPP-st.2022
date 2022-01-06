@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //Define category
     <PreferenceCategory
         android:title="설정">
         <SwitchPreference
             android:title="알림">
         </SwitchPreference>
+
 
     <PreferenceScreen
         android:title="키워트 알림"
