@@ -5,23 +5,37 @@
     <PreferenceCategory
         android:title="설정">
         <SwitchPreference
-            android:title="알림">
+            android:title="게시글 알림"
+            android:summary="게시글 알림을 울립니다.">
         </SwitchPreference>
 
-
-    <PreferenceScreen
-        android:title="키워트 알림"
-        android:summary="사용안함">
         <SwitchPreference
-            android:defaultValue="false"
-            android:title="키워드 알림"
-            android:summary="간략한 내용">
+            android:title="댓글 알림"
+            android:summary="작성한 게스글에 댓글이 달리면 알림을 울립니다.">
         </SwitchPreference>
-    </PreferenceScreen>
 
-    <PreferenceScreen
-        android:title="시각장애 모드"
-        android:summary="제스쳐 모드를 활성화">
-    </PreferenceScreen>
+        <SwitchPreference
+            android:title="시각장애인 도움 기능"
+            android:summary="시각장애인 보조기능을 킵니다.">
+        </SwitchPreference>
+
+        <SwitchPreference
+            android:title="제스쳐 기능"
+            android:summaryOn="시각장애인 보조기능 제스쳐를 킵니다."
+            android:summaryOff="꺼졌습니다">
+        </SwitchPreference>
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="회원">
+        <ListPreference
+            android:title="로그아웃">
+
+        </ListPreference>
+        <ListPreference
+            android:title="회원탈퇴">
+
+        </ListPreference>
     </PreferenceCategory>
 </PreferenceScreen>

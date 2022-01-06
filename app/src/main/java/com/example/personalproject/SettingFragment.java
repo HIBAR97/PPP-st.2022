@@ -19,5 +19,6 @@ public class SettingFragment extends AppCompatActivity {
                 //frameLayout -> Settingpage_Preference replace
                 .replace(R.id.frameLayout ,new Settingpage_Preference())
                 .commit();
+
     }
 }
