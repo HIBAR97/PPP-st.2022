@@ -17,9 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnPicMove;
+        Button btnMypage;
         Button btnSet;
 
+
         btnPicMove = (Button)findViewById(R.id.btnPicMove);
+        btnMypage = (Button)findViewById(R.id.btnMypage);
         btnSet = (Button)findViewById(R.id.btnSet);
 
 
@@ -29,6 +32,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //Move to "takePic" page
+                Intent intent = new Intent (getApplicationContext(), takePic.class);
+                startActivity(intent);
+            }
+        });
+
+        //Mypage functuion Listener
+        btnMypage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //Move to "Mypage" page
                 Intent intent = new Intent (getApplicationContext(), takePic.class);
                 startActivity(intent);
             }

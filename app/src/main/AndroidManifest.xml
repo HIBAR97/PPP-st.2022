@@ -42,6 +42,12 @@
 
         </activity>
 
+        <activity
+            android:name=".MyPage"
+            android:exported="true">
+
+        </activity>
+
         //Define SettingFragment
         <activity
             android:name=".SettingFragment"
